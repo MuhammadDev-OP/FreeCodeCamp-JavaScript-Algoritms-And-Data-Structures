@@ -1,10 +1,11 @@
 function getIndexToIns(arr, num) {
-    const newArr = arr.sort();
-    console.log(newArr)
-    newArr.push(num);
-    console.log("Here you go Mujahid!")
-    newArr.sort()
-    return newArr;
+    arr.sort((a,b) => a-b)
+    console.log(arr)
+    for (let i = 0; i < arr.length; i++) {
+        if(arr[i] > num) return i;
+        
+    }
+    return arr.length
   }
   
   console.log(getIndexToIns([40, 60], 50));
