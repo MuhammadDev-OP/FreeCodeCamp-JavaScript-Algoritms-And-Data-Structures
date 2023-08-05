@@ -1,5 +1,5 @@
 function frankenSplice(arr1, arr2, n) {
-    let newArr = arr2.splice(arr1, n)
+    let newArr = arr2.slice()
     return newArr;
   }
   
