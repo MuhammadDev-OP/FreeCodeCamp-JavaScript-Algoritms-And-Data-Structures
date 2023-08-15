@@ -15,9 +15,7 @@ const getTea = (numOfCups) => {
   }
   return teaCups;
 };
-this.setState((state, props) => {
-  return { first };
-});
+
 const tea4TeamFCC = getTea(40);
 
 console.log(tea4TeamFCC);
