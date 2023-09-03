@@ -35,7 +35,6 @@ const workWindow = new Window(['GMail', 'Inbox', 'Work mail', 'Docs', 'freeCodeC
 const socialWindow = new Window(['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium']); // Social sites
 const videoWindow = new Window(['Netflix', 'YouTube', 'Vimeo', 'Vine']); // Entertainment sites
 
-// Now perform the tab opening, closing, and other operations
 const finalTabs = socialWindow
   .tabOpen() // Open a new tab for cat memes
   .join(videoWindow.tabClose(2)) // Close third tab in video window, and join
